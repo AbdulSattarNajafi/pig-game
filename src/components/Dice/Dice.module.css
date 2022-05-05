@@ -1,0 +1,26 @@
+.dice {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 7.4rem;
+  z-index: 20;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-img {
+  max-width: 10rem;
+  height: auto;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}

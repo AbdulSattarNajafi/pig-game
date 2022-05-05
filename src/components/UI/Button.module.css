@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  background: rgba(#fff, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #000;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+  backdrop-filter: blur(10px);
+  padding: 0.8rem 2.5rem;
+  margin: 2rem 0.5rem 0;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgb(0 0 0 / 10%);
+}
+
+.button::first-letter {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+
+.button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.button:focus {
+  outline: none;
+}

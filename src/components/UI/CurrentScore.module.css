@@ -1,0 +1,31 @@
+.current {
+  width: 60%;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: auto;
+  background: rgba(#fff, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(#000, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.current-label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #0ba4e0;
+  font-weight: 600;
+}
+
+.current-score {
+  font-size: 3.3rem;
+  color: #b367ca;
+}
+
+@media (max-width: 991px) {
+  .current {
+    width: 60%;
+  }
+}

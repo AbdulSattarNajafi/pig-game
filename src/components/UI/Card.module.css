@@ -1,0 +1,27 @@
+.card {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+  backdrop-filter: blur(10px);
+}
+
+.inactive {
+  opacity: 0.7;
+}
+
+.inactive h2 {
+  color: #097a42;
+}
+
+@media (max-width: 991px) {
+  .card {
+    padding: 6rem 4rem;
+  }
+}
